@@ -1,42 +1,56 @@
 # Chatter Frontend
 
-Angular application providing the user interface for the Chatter platform.
+Frontend application for the Chatter platform.
 
-The frontend allows users to authenticate, browse channels, exchange messages, and manage discussions through a responsive web interface.
+---
 
-## ✨ Key Features
+$ Context
 
-* User Authentication
-* Channel Browsing
-* Channel Creation
-* Message Posting
-* Responsive Interface
-* REST API Integration
+This module provides the user interface allowing users to browse channels, exchange messages and interact with the platform through a responsive web experience.
 
-## 🏗️ Architecture
+---
 
-* Angular 17
-* Component-Based Design
-* Service-Oriented Data Access
-* Reactive Programming with RxJS
+$ What Was Built
 
-## 🛠️ Technologies Used
+> \> User authentication screens<br>
+> \> Channel browsing<br>
+> \> Channel creation workflows<br>
+> \> Message publishing<br>
+> \> Channel conversations<br>
+> \> Responsive user interface<br>
+> \> REST API integration<br>
 
-* Angular 17
-* TypeScript
-* RxJS
-* Bootstrap
+---
 
-## 📡 Backend Communication
+$ Technical Stack
 
-The application consumes the Chatter REST API to:
+> \> Angular 17<br>
+> \> TypeScript<br>
+> \> RxJS<br>
+> \> Bootstrap<br>
 
-* Authenticate users
-* Retrieve channels
-* Create channels
-* Retrieve messages
-* Send messages
+---
 
-## 📦 Project Status
+$ Architecture
 
-**Completed • Frontend Module**
+The frontend relies on a component-based architecture with service-driven data access and reactive workflows powered by RxJS.
+
+Communication with the backend is performed through dedicated Angular services consuming the Chatter REST API.
+
+---
+
+$ Backend Communication
+
+> \> User authentication<br>
+> \> Channel retrieval<br>
+> \> Channel creation<br>
+> \> Message retrieval<br>
+> \> Message publishing<br>
+
+---
+
+$ Project Status
+
+> \> Completed frontend module<br>
+> \> Angular single-page application<br>
+> \> REST API integration<br>
