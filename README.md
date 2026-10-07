@@ -7,93 +7,82 @@
 ![RxJS](https://img.shields.io/badge/RxJS-7+-B7178C)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-# Chatter • Fullstack Chat Platform (Spring Boot 3 + Angular 17)
+# Chatter
 
-Full-stack chat platform built with Angular and Spring Boot, allowing users to authenticate, create discussion channels, exchange messages, and collaborate through a modern web interface.
+Full-stack chat platform designed around discussion channels, collaborative messaging and real-time communication workflows.
 
-This repository is organized as a monorepo containing both the Spring Boot backend and Angular frontend applications.
+> \> [Live Preview](https://redabensaad.github.io/chatter)
 
-## ✨ Key Features
+---
 
-* User Authentication
-* Channel Creation & Management
-* Channel Renaming
-* Channel Deletion
-* Message Posting
-* Channel-Based Conversations
-* Role-Oriented Architecture
-* REST API Communication
-* PostgreSQL Data Persistence
-* Responsive User Interface
+$ Context
 
-## 🏗️ Architecture
+Chatter was developed as a full-stack web application allowing authenticated users to create discussion channels, exchange messages and organize conversations through a modern web interface.
 
-### Backend
+The repository follows a monorepo approach containing both the Spring Boot backend and Angular frontend applications.
 
-* Spring Boot REST API
-* Spring Data JPA
-* PostgreSQL Persistence
-* Service & Repository Layers
-* CORS Configuration
-* OpenAPI / Swagger Documentation
+---
 
-### Frontend
+$ Domain
 
-* Angular 17
-* RxJS
-* Bootstrap UI
-* Reactive Data Flows
-* Component-Based Architecture
+> \> Team collaboration<br>
+> \> Discussion channels<br>
+> \> Messaging workflows<br>
+> \> User communication<br>
 
-## 🛠️ Technologies Used
+---
 
-### Backend
+$ What Was Built
 
-* Java 17
-* Spring Boot
-* Spring Data JPA
-* PostgreSQL
-* Maven
+> \> User authentication<br>
+> \> Discussion channel management<br>
+> \> Channel creation and deletion<br>
+> \> Channel updates and organization<br>
+> \> Message publishing<br>
+> \> Channel-based conversations<br>
+> \> User message retrieval<br>
+> \> REST API communication<br>
+> \> Responsive web interface<br>
+> \> Persistent data management<br>
 
-### Frontend
+---
 
-* Angular 17
-* TypeScript
-* RxJS
-* Bootstrap
+$ Technical Stack
 
-### DevOps
+> \> Java 17<br>
+> \> Spring Boot 3.2<br>
+> \> Spring Data JPA<br>
+> \> PostgreSQL 16<br>
+> \> Angular 17<br>
+> \> TypeScript<br>
+> \> RxJS<br>
+> \> Bootstrap 5<br>
+> \> Docker<br>
+> \> Maven<br>
 
-* Docker
+---
 
-## 👥 Core Modules
+$ Architecture
 
-### Authentication
+The application follows a layered architecture built around a Spring Boot REST API and an Angular frontend.
 
-* User Login
-* Session Management
+Backend responsibilities are separated through service and persistence layers while the frontend relies on a component-based architecture and reactive data flows.
 
-### Channels
+The solution was designed to provide a clear separation between messaging workflows, channel management and user interactions.
 
-* Create Channels
-* Update Channels
-* Delete Channels
-* Browse Channels
+---
 
-### Messaging
+$ Project Status
 
-* Post Messages
-* Retrieve Channel Messages
-* User-Based Conversations
+> \> Completed team project<br>
+> \> Full-stack application<br>
+> \> Monorepo architecture<br>
+> \> Portfolio demonstration project<br>
 
-## 🤝 Team Collaboration
+---
+
+$ Notes
 
 This project was developed collaboratively as part of a full-stack learning experience.
 
-Backend and frontend contributions were coordinated to deliver a complete chat platform featuring channel management, messaging capabilities, and RESTful communication.
-
-## 📦 Project Status
-
-**Completed • Full-Stack Team Project**
-
-This project demonstrates full-stack web application development using Angular, Spring Boot, PostgreSQL, and modern layered architecture principles.
+It showcases channel management, messaging workflows, frontend-backend integration and team-based application development using Angular, Spring Boot and PostgreSQL.
