@@ -86,3 +86,15 @@ $ Notes
 This project was developed collaboratively as part of a full-stack learning experience.
 
 It showcases channel management, messaging workflows, frontend-backend integration and team-based application development using Angular, Spring Boot and PostgreSQL.
+
+---
+
+$ Preview
+
+![Chatter](shot/chatter.png)
+
+---
+
+$ Built
+
+✓ Mar 2025
